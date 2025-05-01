@@ -4,7 +4,7 @@ import geopy.distance
 from streamlit.components.v1 import html
 
 # Sample data: Replace with your actual dataset
-agency_data = pd.read_csv('agency_data.csv')  # Your agency data
+agency_data = pd.read_csv('Agency_CAFN.csv')  # Your agency data
 
 # Standardize column names: remove spaces, convert to lowercase
 agency_data.columns = agency_data.columns.str.strip().str.lower()
@@ -30,17 +30,19 @@ service_column_map = {
 # Streamlit UI
 st.title("Find Nearby Agencies")
 
-# JavaScript for getting the user's geolocation
+# JavaScript for getting the user's geolocation (with 5 decimal places precision)
 geolocation_code = """
 <script type="text/javascript">
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
-            const lat = position.coords.latitude;
-            const lon = position.coords.longitude;
+            const lat = position.coords.latitude.toFixed(7);  // Format latitude to 5 decimal places
+            const lon = position.coords.longitude.toFixed(7);  // Format longitude to 5 decimal places
             window.parent.postMessage({ lat: lat, lon: lon }, "*");
+        }, function(error) {
+            window.parent.postMessage({ error: true }, "*");
         });
     } else {
-        alert("Geolocation is not supported by this browser.");
+        window.parent.postMessage({ error: true }, "*");
     }
 </script>
 """
@@ -49,16 +51,32 @@ geolocation_code = """
 html(geolocation_code, height=0)
 
 # Create placeholders for latitude and longitude
-user_lat = st.empty()
-user_lon = st.empty()
+if "user_lat" not in st.session_state:
+    st.session_state.user_lat = None
+if "user_lon" not in st.session_state:
+    st.session_state.user_lon = None
 
-# Set up an event listener to receive the user's location from JavaScript
-st.experimental_rerun()
+# Listen for geolocation updates and store in session state
+def update_location(lat, lon):
+    st.session_state.user_lat = lat
+    st.session_state.user_lon = lon
 
-# User input for latitude and longitude (only for fallback)
-if not user_lat or not user_lon:
-    user_lat = st.number_input("Enter your latitude", min_value=-90.0, max_value=90.0, value=35.7796)
-    user_lon = st.number_input("Enter your longitude", min_value=-180.0, max_value=180.0, value=-78.6382)
+# Check for errors or geolocation success
+if st.session_state.user_lat and st.session_state.user_lon:
+    user_lat = st.session_state.user_lat
+    user_lon = st.session_state.user_lon
+    # Display user's location with 5 decimal places
+    st.write(f"User location: Latitude {user_lat}, Longitude {user_lon}")
+else:
+    # If geolocation fails or no value is set, use manual input
+    st.write("Waiting for location access... (if location is blocked, please enable it in your browser settings)")
+    
+    # Allow the user to manually input latitude and longitude with 5 decimal precision
+    user_lat = st.number_input("Enter your latitude", min_value=-90.0, max_value=90.0, value=35.7796, format="%.7f")
+    user_lon = st.number_input("Enter your longitude", min_value=-180.0, max_value=180.0, value=-78.6382, format="%.7f")
+
+    # Display manually entered coordinates with 5 decimal places
+    st.write(f"Manual Input: Latitude {user_lat}, Longitude {user_lon}")
 
 # Distance threshold input (in miles)
 distance_threshold = st.number_input("Enter Distance Threshold (miles)", min_value=1, max_value=100, value=5)
