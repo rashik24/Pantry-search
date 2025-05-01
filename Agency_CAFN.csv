@@ -1,0 +1,56 @@
+,Parent Agency No.,Is_CSFP,Is_Children_Services,Is_Disaster_Relief,Is_Elderly_Services,Is_Hospitals_Special_Facilities,Is_Meal_Services,Is_Other,Is_Pantry,Is_Shelters_Group_Homes,Is_TEFAP,City,State,ZIP Code,Address,Name,Agency_Name_Clean,Agency_Name_Standardized,Latitude,Longitude
+0,R1011,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27609,3900 Barrett Dr Raleigh NC 27609,An Elegant Affair  ,an elegant affair,an elegant affair,35.8282993,-78.6310873
+1,R1021,1,0,0,0,0,0,0,1,0,0,Raleigh,NC,27617,7109 Leesville Rd Raleigh NC 27617, Baptist Grove  ,baptist grove,baptist grove,35.8723508,-78.7010316
+2,R1026,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27615,7215 Six Forks Rd Raleigh NC 27615,Bethlehem Baptist Church  ,bethlehem baptist church,bethlehem baptist church,35.8786101,-78.6460751
+3,R1036,0,0,0,0,0,0,1,0,0,0,Apex,NC,27502,800 Lufkin Rd Apex NC 27502,Brown Bag Ministry  ,brown bag ministry,brown bag ministry,35.713831,-78.836223
+4,R1041,0,0,0,0,0,0,0,1,0,0,Garner,NC,27529,1308 US-70 Garner NC 27529,Capital Pentacostal Church  ,capital pentacostal church,capital pentacostal church,35.5044407,-78.2807584
+5,R1048,0,0,1,0,0,0,0,1,0,1,Raleigh,NC,27604,2013 N Raleigh Blvd Raleigh NC 27604,Catholic Parish Outreach  ,catholic parish outreach,catholic parish outreach,35.8040531,-78.6079239
+6,R1059,0,0,0,0,0,0,0,0,1,0,,NC,nan,,Christian Life Home  ,christian life home,christian life home,35.853869,-78.708498
+7,R1073,1,0,1,0,0,0,0,1,0,1,Knightdale,NC,27545,111-B N First Ave Knightdale NC 27545,Community Helpers Service Center Inc,community helpers service center inc,community helpers service,35.800385,-78.478226
+8,R1074,0,1,0,0,0,0,0,1,0,0,Garner,NC,27529,601 St Mary's St Garner NC 27529,Community of Hope Ministries  ,community of hope ministries,community of hope ministries,35.704103,-78.613901
+9,R1121,0,0,0,0,0,0,0,1,0,0,Garner,NC,27529,100 Professional Ct Suite 104 Garner NC 27529,Faith In Action  ,faith in action,faith in action,35.6080443,-78.5692325
+10,R1122,0,0,1,0,0,0,0,1,0,1,Raleigh,NC,27603,908 Suffolk Blvd Raleigh NC 27603,Faith Missionary Baptist Church,faith missionary baptist church,faith missionary baptist,35.7450327,-78.6591247
+11,R1125,0,0,0,0,0,0,1,0,0,0,Raleigh,NC,27604,3029 Stoneybrook Dr Ste 105 Raleigh NC 27604,Fathers Forever  ,fathers forever,fathers forever,35.8168947,-78.592775
+12,R1127,0,0,0,0,0,0,0,0,1,0,Raleigh,NC,27603,506 Cutler St Raleigh NC 27603,Fellowship Home of Raleigh  ,fellowship home of raleigh,fellowship home of raleigh,35.7743432,-78.6521767
+13,R1133,1,0,1,0,0,0,0,1,0,1,Raleigh,NC,27610,1515 Cross Link Rd Raleigh NC 27610,First Cosmopolitan MBC  ,first cosmopolitan mbc,first cosmopolitan mbc,35.752959,-78.616132
+14,R1156,0,0,1,0,0,0,0,1,0,1,Fuquay-Varina,NC,27526,216 W Academy St Fuquay-Varina NC 27526,Fuquay-Varina Emergency Food Pantry,fuquay-varina emergency food pantry,fuquay-varina emergency,35.5844419,-78.8010678
+15,R1193,0,0,0,0,0,0,0,1,0,0,Holly Springs,NC,27540,621 W Holly Springs Rd Holly Springs NC 27540,Holly Springs Food Cupboard  ,holly springs food cupboard,holly springs food cupboard,35.6555269,-78.8426276
+16,R1211,0,0,0,0,0,0,0,1,0,1,Raleigh,NC,27603,9104 Sauls Rd Raleigh NC 27603,Juniper Level  ,juniper level,juniper level,35.6311955,-78.6418855
+17,R1233,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27609,1712 E Millbrook Rd Raleigh NC 27609,Millbrook United Methodist Church,millbrook united methodist church,millbrook united methodist church,35.8498898,-78.6064219
+18,R1251,1,0,1,0,0,1,0,1,0,1,Rolesville,NC,27571,605 E Young St Rolesville NC 27571,New Bethel Baptist Church  ,new bethel baptist church,new bethel baptist church,35.9173222,-78.452307
+19,R1252,1,0,0,0,0,1,0,1,0,0,Raleigh,NC,27610,4307 Old Poole Rd Raleigh NC 27610,New Bethel Christian Church  ,new bethel christian church,new bethel christian church,35.7645706,-78.5670835
+20,R1270,0,0,0,0,0,0,0,1,0,0,Youngsville,NC,27596,2279 Cedar Creek Rd Youngsville NC 27596,Oak Level Christian Church  ,oak level christian church,oak level christian church,36.0405526,-78.4502296
+21,R1277,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27614,9801 Durant Rd Raleigh NC 27614,Open Door Baptist Church  ,open door baptist church,open door baptist church,35.8999761,-78.5764474
+22,R1288,0,0,1,0,0,0,0,1,0,1,Wendell,NC,27591,948 Morphus Bridge Rd Wendell NC 27591,Pleasant Grove Missionary Baptist Church,pleasant grove missionary baptist church,pleasant grove missionary,35.781547,-78.3526548
+23,R1290,1,0,1,0,0,0,0,1,0,1,Raleigh,NC,27603,6115 Old Stage Rd Raleigh NC 27603,Poplar Springs Christian Church,poplar springs christian church,poplar springs christian,35.6959657,-78.6531075
+24,R1298,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27606,911 Barringer Dr Raleigh NC 27606,Raleigh Church of Christ  ,raleigh church of christ,raleigh church of christ,35.775308,-78.723361
+25,R1299,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27604,4301 Louisburg Rd Raleigh NC 27604,Raleigh Dream Center  ,raleigh dream center,raleigh dream center,35.8420238,-78.5751221
+26,R1303,0,0,0,0,0,0,0,0,1,0,Raleigh,NC,27601,314 E Hargett St Raleigh NC 27601,Raleigh Rescue Mission  ,raleigh rescue mission,raleigh rescue mission,35.7780086,-78.6345806
+27,R1304,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27615,6894 Litchford Rd Raleigh NC 27615,Raleigh Vineyard Christian  ,raleigh vineyard christian,raleigh vineyard christian,35.8742953,-78.5960624
+28,R1314,0,0,0,1,0,0,1,0,0,0,Raleigh,NC,27616,5124 Departure Dr Raleigh NC 27616,Resources For Seniors - Departure Drive Adult Care,resources for seniors - departure drive adult care,resources for seniors,35.8530067,-78.5956522
+29,R1315,0,0,0,0,0,0,0,1,0,1,Raleigh,NC,27601,805 E Davie St Raleigh NC 27601,Revelation Missionary Baptist Church,revelation missionary baptist church,revelation missionary baptist church,35.775337,-78.6261665
+30,R1318,0,0,0,0,0,0,0,1,0,0,Wake Forest,NC,27587,3229 Burlington Mills Rd Wake Forest NC 27587,Richland Creek Community Church,richland creek community church,richland creek community church,35.9204439,-78.5210538
+31,R1365,0,0,0,0,0,0,0,1,0,0,Wake Forest,NC,27587,701 S Main St Wake Forest NC 27587,The Stone Chapel  ,the stone chapel,the stone chapel,35.9725501,-78.5151949
+32,R1379,0,0,0,0,0,0,0,1,0,1,Cary,NC,27511,1503 Walnut St Cary NC 27511,The Point Care Center  ,the point care center,the point care center,35.764707,-78.751223
+33,R1384,0,0,1,0,0,0,0,1,0,1,Wake Forest,NC,27587,149 East Holding Ave Wake Forest NC 27587,Tri-Area Ministry  ,tri-area ministry,tri-area ministry,35.9720918,-78.5133344
+34,R1390,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27606,314 Bashford Rd Raleigh NC 27606,UMOJA Central SDA Church  ,umoja central sda church,umoja central sda church,35.7823521,-78.7388891
+35,R1395,1,0,1,0,0,1,0,1,0,1,Raleigh,NC,27610,3300 Idlewood Village Dr Raleigh NC 27610,Upper Room Church of God  in Christ,upper room church of god in christ,upper room church of god,35.736222,-78.616961
+36,R1399,0,0,0,0,0,0,0,1,1,0,Raleigh,NC,27610,1118 S East St Raleigh NC 27610,Victory Gospel Chapel Spiritual Growth Center,victory gospel chapel spiritual growth center,victory gospel chapel,35.7662999,-78.633016
+37,R1402,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27604,3805 Tarheel Club Rd Raleigh NC 27604,Wake Chapel Church  ,wake chapel church,wake chapel church,35.8274836,-78.5225572
+38,R1416,0,0,0,0,0,0,0,1,0,0,Wendell,NC,27591,129 N Main St Wendell NC 27591,Wendell United Methodist Church,wendell united methodist church,wendell united methodist church,35.7832465,-78.369878
+39,R1418,1,0,0,0,0,0,0,1,0,0,Apex,NC,27502,1600 Olive Chapel Rd. Suite 408 Apex NC 27502,Western Wake Crisis Ministry  ,western wake crisis ministry,western wake crisis ministry,35.732039,-78.950017
+40,R1419,1,0,0,1,0,1,0,1,0,1,Apex,NC,27523,1621 White Oak Church Rd Apex NC 27523,White Oak Foundation  ,white oak foundation,white oak foundation,35.779327,-78.919221
+41,R1422,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27603,421 Chapanoke Rd Raleigh NC 27603,With Love From Jesus Ministry  ,with love from jesus ministry,with love from jesus ministry,35.7357076,-78.6530277
+42,R1425,0,1,1,0,0,1,0,1,0,1,Raleigh,NC,27610,3000 Rock Quarry Rd Raleigh NC 27610,Word of God Fellowship  ,word of god fellowship,word of god fellowship,35.747316,-78.597078
+43,R1427,1,0,0,0,0,0,0,1,0,0,Zebulon,NC,27597,114 W Sycamore St Zebulon NC 27597,Zebulon United Methodist Church,zebulon united methodist church,zebulon united methodist church,35.575013,-78.809925
+44,R1506,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27609,4024 Barrett Dr Ste 101 Raleigh NC 27609,NC Harm Reduction  ,nc harm reduction,nc harm reduction,35.8300417,-78.6301736
+45,R1509,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27609,8210 Creedmoor Rd Ste 104 Raleigh NC 27609,Jewish Family Services  ,jewish family services,jewish family services,35.8986408,-78.680604
+46,R1510,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27615,9650 Strickland Rd Ste 175 Raleigh NC 27615,North Raleigh Ministries  ,north raleigh ministries,north raleigh ministries,35.901297,-78.654463
+47,R1513,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27607,2200 Hillsborough St. Raleigh NC 27607,Feed the Pack  ,feed the pack,feed the pack,35.786771,-78.66414
+48,R1538,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27616,7715 Louisburg Rd Raleigh NC 27616,Grace Christian Church  ,grace christian church,grace christian church,35.8960199,-78.5063096
+49,R1585,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27610,4309 Auburn Knightdale Rd. Raleigh NC 27610,Springfield Baptist Church  ,springfield baptist church,springfield baptist church,35.698484,-78.541655
+50,R1586,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27604,824 Bloodworth St. Raleigh NC 27604,Open Table  ,open table,open table,35.7909539,-78.6322558
+51,R1587,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27616,8700 Captital Blvd. Raleigh NC 27616,Celebration Church  ,celebration church,celebration church,35.894248,-78.558797
+52,R1593,0,0,0,0,0,0,0,1,0,0,Raleigh,NC,27610,1504 New Bern Ave Raleigh NC 27610,Lincoln Park Holiness Church  ,lincoln park holiness church,lincoln park holiness church,35.7798396,-78.6167073
+53,R1605,0,0,0,0,0,0,0,1,0,0,Garner,NC,27529,3704 Benson Rd. Garner NC 27529,Turner Memorial Baptist Church  ,turner memorial baptist church,turner memorial baptist church,35.6299656,-78.6103255
+54,R1606,0,0,0,0,0,0,0,1,0,0,Fuquay-Varina,NC,27526,5309 Umstead Rd. Fuquay-Varina NC 27526,Compass Christian Church  ,compass christian church,compass christian church,35.6302703,-78.720175
